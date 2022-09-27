@@ -1,8 +1,8 @@
 {
-  "name": "vuepress-starter",
+  "name": "Iriss-blog",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Your name",
+  "author": "Iriss",
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.9.7"
@@ -10,5 +10,9 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vuepress/plugin-register-components": "^2.0.0-beta.51",
+    "vuepress-theme-reco": "^1.6.14"
   }
 }
